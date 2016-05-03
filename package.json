@@ -1,0 +1,24 @@
+{
+  "name": "booklist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSCRIPT300-Spring2016/booklist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSCRIPT300-Spring2016/booklist/issues"
+  },
+  "homepage": "https://github.com/JSCRIPT300-Spring2016/booklist#readme"
+}
