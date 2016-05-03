@@ -4,7 +4,7 @@ $(function () {
 
     if (data && Array.isArray(data)) {
       data.forEach(function (item) {
-        list.push('<li><li><span class="delete_link" data-book="' + item._id + '">X</span><a href="/books/' + item._id + '">' + item.title + '</a></li>');
+        list.push('<li><span class="delete_link" data-book="' + item._id + '">X</span><a href="/books/' + item._id + '">' + item.title + '</a></li>');
       });
       $('.books-list').append(list);
     }

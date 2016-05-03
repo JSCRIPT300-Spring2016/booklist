@@ -92,6 +92,8 @@ function addBook(book) {
     book.read = false;
     book._id = idManager.getId();
     bookList.push(book);
+
+    return book;
   }
 }
 

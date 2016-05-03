@@ -23,8 +23,8 @@ function getId() {
   if (lastId === undefined) {
     setIds();
   }
-
-  return lastId + 1;
+  lastId += 1;
+  return lastId;
 }
 
 module.exports = {
